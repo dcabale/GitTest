@@ -12,6 +12,7 @@ begin
     { TODO -oUser -cConsole Main : Insert code here }
     Writeln('Hi there!');
     Writeln('Hi again!');
+	// comment
   except
     on E: Exception do
       Writeln(E.ClassName, ': ', E.Message);
