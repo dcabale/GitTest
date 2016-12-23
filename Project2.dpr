@@ -10,6 +10,7 @@ uses
 begin
   try
     { TODO -oUser -cConsole Main : Insert code here }
+    Writeln('Hi there!');
   except
     on E: Exception do
       Writeln(E.ClassName, ': ', E.Message);
